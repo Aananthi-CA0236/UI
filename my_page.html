@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Aananthi</title>
+	<p>Sample project</p>
+	
+</head>
+<body>
+
+	<button id="btn1" onclick="addElement(this)">Click me!</button>
+
+	<script type="text/javascript">
+		function addElement(id) {
+			const para = document.createElement("input");
+			// const node = document.createTextNode("This is new.");
+			// para.appendChild(node);
+			document.body.appendChild(para);
+		}
+
+	</script>
+
+</body>
+</html>
